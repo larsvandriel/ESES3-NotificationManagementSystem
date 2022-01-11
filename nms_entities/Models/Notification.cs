@@ -9,7 +9,9 @@ namespace NotificationManagementSystem.Entities.Models
     public abstract class Notification
     {
         public Guid Id { get; set; }
+        public string Title { get; set; }
         public string Message { get; set; }
+        public Employee Sender { get; set; }
         public List<Employee> Receivers { get; set; }
     }
 }
