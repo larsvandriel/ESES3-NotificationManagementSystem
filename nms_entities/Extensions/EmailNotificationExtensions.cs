@@ -15,6 +15,7 @@ namespace NotificationManagementSystem.Entities.Extensions
             dbNotification.Message = notification.Message;
             dbNotification.Sender = notification.Sender;
             dbNotification.Receivers = notification.Receivers;
+            dbNotification.TimeSend = notification.TimeSend;
         }
     }
 }

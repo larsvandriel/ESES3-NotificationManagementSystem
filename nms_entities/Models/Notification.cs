@@ -13,5 +13,6 @@ namespace NotificationManagementSystem.Entities.Models
         public string Message { get; set; }
         public Employee Sender { get; set; }
         public List<Employee> Receivers { get; set; }
+        public DateTime TimeSend { get; set; }
     }
 }

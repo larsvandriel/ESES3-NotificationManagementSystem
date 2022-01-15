@@ -19,6 +19,7 @@ namespace NotificationManagementSystem.Entities.Configurations
             builder.HasMany(n => n.Receivers).WithMany(e => e.Notifications);
             builder.Property(n => n.Title).IsRequired();
             builder.Property(n => n.Message).IsRequired();
+            builder.Property(n => n.TimeSend).IsRequired();
         }
     }
 }
