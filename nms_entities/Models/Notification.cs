@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NotificationManagementSystem.Entities.Models
 {
-    public abstract class Notification
+    public abstract class Notification: IEntity
     {
         public Guid Id { get; set; }
         public string Title { get; set; }
