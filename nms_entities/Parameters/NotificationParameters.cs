@@ -10,9 +10,9 @@ namespace NotificationManagementSystem.Entities.Parameters
     {
         public NotificationParameters()
         {
-            OrderBy = "name";
+            OrderBy = "title";
         }
 
-        public string Name { get; set; }
+        public string Title { get; set; }
     }
 }
